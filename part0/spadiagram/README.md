@@ -16,5 +16,5 @@ sequenceDiagram;
     Client->>Server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json;
     Server-->>Client: application/json charset=UTF-8;
 
-    Note right of Client: The browser show de web page;
+    Note right of Client: The browser show the web page;
 ```

@@ -7,5 +7,5 @@ sequenceDiagram;
     Client->>Server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa;
     Server-->>Client: application/json charset=utf-8;
 
-    Note right of Client: The browser show de web page;
+    Note right of Client: The browser show the new note without reload the page;
 ```

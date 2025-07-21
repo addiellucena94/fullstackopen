@@ -4,6 +4,9 @@ sequenceDiagram;
     participant Client;
     participant Server;
 
+    Client->>Server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note;
+    Server-->>Client: text/html charset=UTF-8;
+
     Client->>Server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/notes;
     Server-->>Client: text/html charset=UTF-8;
 

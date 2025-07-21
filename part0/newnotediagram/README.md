@@ -1,3 +1,5 @@
+### 0.4: New note diagram
+```mermaid
 sequenceDiagram
     participant Client
     participant Server
@@ -13,5 +15,6 @@ sequenceDiagram
 
     Client->>Server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json
     Server->>Client: application/json; charset=utf-8
-    
+
     Note right of Client: The browser show de web page
+```
